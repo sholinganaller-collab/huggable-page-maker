@@ -8,17 +8,23 @@ const CompanyPartners = () => {
   ];
 
   return (
-    <section className="py-12 bg-secondary/30">
+    <section className="py-16 bg-gradient-to-b from-background to-secondary/30">
       <div className="container mx-auto px-4">
-        <h2 className="text-center text-lg md:text-xl text-muted-foreground mb-8 font-medium">
-          Step into a world of opportunities with world-class companies
+        <h2 className="text-center text-xl md:text-2xl text-foreground mb-3 font-bold animate-fade-in">
+          Trusted by Industry Leaders
         </h2>
-        <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12">
-          {companies.map((company) => (
+        <p className="text-center text-muted-foreground mb-10 animate-fade-in">
+          Step into a world of opportunities with world-class companies
+        </p>
+        <div className="flex flex-wrap items-center justify-center gap-8 md:gap-16">
+          {companies.map((company, index) => (
             <div 
               key={company.name}
-              className="text-2xl md:text-3xl font-bold transition-transform hover:scale-110"
-              style={{ color: company.color }}
+              className="text-2xl md:text-4xl font-bold transition-all hover:scale-125 cursor-pointer animate-scale-in"
+              style={{ 
+                color: company.color,
+                animationDelay: `${index * 100}ms`
+              }}
             >
               {company.name}
             </div>

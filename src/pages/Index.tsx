@@ -2,6 +2,11 @@ import Header from "@/components/Header";
 import Navigation from "@/components/Navigation";
 import CompanyPartners from "@/components/CompanyPartners";
 import HeroSection from "@/components/HeroSection";
+import StatsSection from "@/components/StatsSection";
+import AboutSection from "@/components/AboutSection";
+import FeaturesSection from "@/components/FeaturesSection";
+import CallToAction from "@/components/CallToAction";
+import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { Helmet } from "react-helmet";
 
@@ -23,6 +28,11 @@ const Index = () => {
         <Navigation />
         <HeroSection />
         <CompanyPartners />
+        <StatsSection />
+        <AboutSection />
+        <FeaturesSection />
+        <CallToAction />
+        <Footer />
         <WhatsAppButton />
       </div>
     </>
