@@ -5,6 +5,9 @@ import HeroSection from "@/components/HeroSection";
 import StatsSection from "@/components/StatsSection";
 import AboutSection from "@/components/AboutSection";
 import FeaturesSection from "@/components/FeaturesSection";
+import StudentLifeSection from "@/components/StudentLifeSection";
+import FacultySection from "@/components/FacultySection";
+import CanteenSection from "@/components/CanteenSection";
 import CallToAction from "@/components/CallToAction";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
@@ -30,7 +33,10 @@ const Index = () => {
         <CompanyPartners />
         <StatsSection />
         <AboutSection />
+        <StudentLifeSection />
+        <FacultySection />
         <FeaturesSection />
+        <CanteenSection />
         <CallToAction />
         <Footer />
         <WhatsAppButton />
