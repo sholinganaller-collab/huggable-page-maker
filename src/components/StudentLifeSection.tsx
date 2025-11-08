@@ -1,6 +1,6 @@
 import { Users, Calendar, Trophy, Music, Laptop, Heart } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-import studentsCollab from "@/assets/students-collab.jpg";
+import studentsLab from "@/assets/students-lab.jpg";
 
 const StudentLifeSection = () => {
   const activities = [
@@ -51,8 +51,8 @@ const StudentLifeSection = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-lime/30 via-coral/20 to-purple/30 rounded-3xl blur-3xl"></div>
               <img
-                src={studentsCollab}
-                alt="Students collaborating at Madras Engineering College"
+                src={studentsLab}
+                alt="Engineering students collaborating on robotics project in modern lab"
                 className="relative rounded-3xl w-full object-cover shadow-2xl border-4 border-card"
               />
               <div className="absolute -bottom-6 -right-6 bg-card border-2 border-border rounded-2xl p-6 shadow-xl max-w-xs animate-scale-in">

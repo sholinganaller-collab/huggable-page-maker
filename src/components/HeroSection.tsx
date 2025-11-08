@@ -1,4 +1,4 @@
-import studentHero from "@/assets/student-hero.jpg";
+import campusHero from "@/assets/campus-hero.jpg";
 
 const HeroSection = () => {
   return (
@@ -39,8 +39,8 @@ const HeroSection = () => {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-br from-lime/30 via-coral/20 to-purple/30 rounded-3xl blur-3xl"></div>
                 <img
-                  src={studentHero}
-                  alt="Engineering Student at Madras Engineering College"
+                  src={campusHero}
+                  alt="Beautiful campus of Madras Engineering College with modern buildings and students"
                   className="relative rounded-3xl w-full max-w-md object-cover shadow-2xl hover:scale-105 transition-transform duration-500"
                   style={{ boxShadow: "var(--shadow-elegant)" }}
                 />

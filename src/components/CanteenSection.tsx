@@ -1,6 +1,6 @@
 import { Utensils, Coffee, Apple, Heart } from "lucide-react";
 import { Card } from "@/components/ui/card";
-import canteenBg from "@/assets/canteen-bg.jpg";
+import canteenInterior from "@/assets/canteen-interior.jpg";
 
 const CanteenSection = () => {
   const features = [
@@ -31,7 +31,7 @@ const CanteenSection = () => {
       {/* Background Image with Overlay */}
       <div 
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url(${canteenBg})` }}
+        style={{ backgroundImage: `url(${canteenInterior})` }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-navy/90 to-primary/95"></div>
       </div>

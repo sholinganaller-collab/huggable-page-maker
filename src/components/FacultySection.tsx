@@ -1,7 +1,7 @@
 import { GraduationCap, Award, BookOpen, Users } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-import teacher1 from "@/assets/teacher-1.jpg";
-import teacher2 from "@/assets/teacher-2.jpg";
+import faculty1 from "@/assets/faculty-1.jpg";
+import faculty2 from "@/assets/faculty-2.jpg";
 
 const FacultySection = () => {
   const facultyMembers = [
@@ -9,14 +9,14 @@ const FacultySection = () => {
       name: "Dr. Rajesh Kumar",
       designation: "Professor & HOD",
       department: "Computer Science",
-      image: teacher1,
+      image: faculty1,
       expertise: "AI & Machine Learning",
     },
     {
       name: "Dr. Priya Sharma",
       designation: "Associate Professor",
       department: "Electronics Engineering",
-      image: teacher2,
+      image: faculty2,
       expertise: "VLSI Design & IoT",
     },
   ];
